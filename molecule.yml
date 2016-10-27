@@ -1,0 +1,8 @@
+---
+driver:
+  name: docker
+docker:
+  containers:
+    - name: ansible-pip
+      image: centos
+      image_version: latest

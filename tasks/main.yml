@@ -1,0 +1,11 @@
+---
+# tasks file for ansible-pip
+- name: Install setuptools
+  yum:
+    name: python-setuptools
+    state: present
+
+- name: Install pip
+  easy_install:
+    name: pip
+    state: present
